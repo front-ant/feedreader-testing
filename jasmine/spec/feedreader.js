@@ -124,7 +124,7 @@ describe('New Feed Selection', function() {
     done();
   });
   it('changes content', function(done){
-    expect(oldContent).not.toEqual(newContent);
+    expect(oldContent).not.toBe(newContent);
     done();
   })
 });
