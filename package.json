@@ -1,0 +1,19 @@
+{
+  "name": "frontend-nanodegree-feedreader",
+  "version": "1.0.0",
+  "description": "This is my attempt at solving the 5th project in Udacity's Front-End Development Nanodegree. I've worked on completing the test suites in the `feedreader.js` file. Now all required tests are performed and pass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udacity/frontend-nanodegree-feedreader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udacity/frontend-nanodegree-feedreader/issues"
+  },
+  "homepage": "https://github.com/udacity/frontend-nanodegree-feedreader#readme"
+}
