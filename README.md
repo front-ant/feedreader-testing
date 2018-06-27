@@ -4,7 +4,7 @@ This is my attempt at solving the 5th project in Udacity's Front-End Development
 
 ## How to run
 
-You can access a live version of this app via GitHub pages [here](https://n00b1209.github.io/feedreader-testing/). Alternatively, clone the repository by pasting the following line of code into the git bash console:
+Clone the repository by pasting the following line of code into the git bash console:
 
 `git clone https://github.com/n00b1209/feedreader-testing.git`
 
