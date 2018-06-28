@@ -111,17 +111,16 @@ describe('New Feed Selection', function() {
    */
 
   const feed = document.querySelector('.feed');
-  const menuIcon = document.querySelector('.menu-icon-link');
   let oldContent = "";
   let newContent = "";
   beforeEach(function(done) {
     loadFeed(0, function() {
       oldContent = feed.innerHTML;
-      done();
+      loadFeed(1, function() {
+        newContent = feed.innerHTML;
+        done();
+      });
     });
-    menuIcon.click();
-    newContent = feed.innerHTML;
-    done();
   });
   it('changes content', function(done){
     expect(oldContent).not.toBe(newContent);
