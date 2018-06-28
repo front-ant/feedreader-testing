@@ -76,10 +76,10 @@ $(function() {
        */
 
       it('changes visibility when the menu icon is clicked', function() {
-        document.querySelector('.menu-icon-link').click();
-        expect(document.querySelector('body').classList).not.toContain('menu-hidden');
-        document.querySelector('.menu-icon-link').click();
-        expect(document.querySelector('body').classList).toContain('menu-hidden');
+        $('.menu-icon-link').click();
+        expect($('body').hasClass('menu-hidden')).toBe(false);
+        $('.menu-icon-link').click();
+        expect($('body').hasClass('menu-hidden')).toBe(true);
       });
 });
     /* Test suite named "Initial Entries" */
