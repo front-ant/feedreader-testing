@@ -84,7 +84,6 @@ $(function() {
 });
     /* Test suite named "Initial Entries" */
 describe('Initial Entries', function() {
-  const feed = document.querySelector('.feed');
   /* Test that ensures when the loadFeed
    * function is called and completes its work, there is at least
    * a single .entry element within the .feed container.
@@ -96,7 +95,7 @@ describe('Initial Entries', function() {
      loadFeed(0, done);
    });
    it('are loaded', function(done) {
-     expect(feed.childElementCount).toBeGreaterThan(0);
+     expect($('.feed').html()).toContain('entry');
      done();
    });
 
